@@ -20,8 +20,13 @@ class App extends React.Component {
     this.onClick = this.onClick.bind(this);
   }
 
-  
-
+  comopnentDidUpdate(prevProps) {
+    if(this.state.userData === "y") {
+      console.log("this.state.userData === y");
+    } else {
+      console.log(this.state.userData);
+    }
+  }
 
   // html
   render() {

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from './button';
 
 // Header component | default funtction
 function Header(props) {
@@ -8,6 +8,9 @@ function Header(props) {
 
         {/* one variable and many props */}
         <h1 className="title">{props.title}</h1>
+
+        <Button />
+        <Button text="Counter.text: " />
     </header>
   )
 }
