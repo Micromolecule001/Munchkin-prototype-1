@@ -1,33 +1,31 @@
 import React from 'react';
-import Button from './button';
 
+
+/* 
 // Header component | default funtction
 function Header(props) {
   return (
     <header>
 
-        {/* one variable and many props */}
-        <h1 className="title">{props.title}</h1>
-
-        <Button />
-        <Button text="Counter.text: " />
+      <h1 className="title"> {this.props.title} </h1> 
+        
     </header>
   )
 }
+*/
 
 
-/* 
 // Header component | class
 class Header extends React.Component {
     render() {
       return (   
         <header>
-  
-          
-          <h1 className="title"> {this.props.title} </h1> 
+          {/* Accessing props using this.props */}
+          <h1 className="title">{this.props.title}</h1>
+          <p> </p>
         </header>
       )
     }
-  }
-*/
-  export default Header;
+}
+
+export default Header;
