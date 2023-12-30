@@ -61,6 +61,9 @@ class Cards extends React.Component {
                             ) : (
                                 <p className="card__type">Monster</p>
                             )}
+
+
+                            Cards[id:int,]
                             */}
 
                             
